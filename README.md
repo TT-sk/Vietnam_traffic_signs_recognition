@@ -1,4 +1,5 @@
 # Traffic_signs_recognition <br>
+## Chạy trên google colab: <br>
 Bản chạy demo trên colab về traffic_signs_recognition: https://colab.research.google.com/drive/1AxKG9fA-1calAQgiWG-lETtd3d5E3Web?usp=sharing <br>
 Bộ dataset https://drive.google.com/file/d/14qiArH8PzWMAf1YA4x6951y6-rFxAJ6V/view?usp=drive_link <br>
 ## Chạy trên máy ảo conda: <br>
@@ -7,6 +8,7 @@ Mở conda và chạy: pip install -r requirements.txt <br>
 <details open>
 <summary>  Train  </summary>
 Dùng lệnh để chạy lệnh train: python /path/to/train.py --img 640 --batch 3 --epochs 50 path/to/file/yaml.data --weights path/to/file/yolov5s.pt --cache <br>
+  <br>
 -path/to/train.py: nằm trong file yolov5 sau khi đã tải về. <br>
 -img: kích thước ảnh, batch: batch size, epochs: số epochs muốn train. <br>
 -path/to/file/yaml.data: trỏ đến thư mục train và valid của bộ data, đồng thời chứa các label của bộ data. <br>
@@ -15,8 +17,9 @@ Dùng lệnh để chạy lệnh train: python /path/to/train.py --img 640 --bat
 </details>
 
 <details open>
-<summary>  Detect  </summary> <br>
-Sau khi train xong dùng lệnh sau để test: /detect path/to/detect.py --weights /path/to/best.pt --img 640 --conf 0.1 --source /path/to/test <br>
+<summary>  Detect  </summary> 
+Sau khi train xong dùng lệnh sau để test: python /detect path/to/detect.py --weights /path/to/best.pt --img 640 --conf 0.1 --source /path/to/test <br>
+  <br>
 -path/to/test: nơi chứa các file test. <br>
 -path/to/best.pt: bộ trọng số sau khi đã được học dùng và được sử dụng để detect ảnh test. <br>
 -detect path/to/detect.py: file detect trong yolov5. <br>
