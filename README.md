@@ -1,4 +1,4 @@
-# Traffic_signs_recognition <br>
+# Vietnam_traffic_signs_recognition <br>
 ## Chạy trên google colab: <br>
 Bản chạy demo trên colab về traffic_signs_recognition: https://colab.research.google.com/drive/1AxKG9fA-1calAQgiWG-lETtd3d5E3Web?usp=sharing <br>
 Bộ dataset https://drive.google.com/file/d/14qiArH8PzWMAf1YA4x6951y6-rFxAJ6V/view?usp=drive_link <br>
