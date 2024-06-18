@@ -4,7 +4,7 @@ Bản chạy demo trên colab về traffic_signs_recognition: https://colab.rese
 Bộ dataset https://drive.google.com/file/d/14qiArH8PzWMAf1YA4x6951y6-rFxAJ6V/view?usp=drive_link <br>
 ## Chạy trên máy ảo conda: <br>
 Git clone yolov5 về máy: https://github.com/ultralytics/yolov5 <br>
-Mở conda và chạy: pip install -r requirements.txt <br>
+Mở conda và chạy: pip install -r requirements.txt để cài đặt thư viện cho yolov5 <br>
 <details open>
 <summary>  Train  </summary>
 Dùng lệnh để chạy lệnh train: python /path/to/train.py --img 640 --batch 3 --epochs 50 path/to/file/yaml.data --weights path/to/file/yolov5s.pt --cache <br>
@@ -29,3 +29,4 @@ Sau khi train xong dùng lệnh sau để test: python /detect path/to/detect.py
 <details open>
 <summary> Deployment  </summary>
 File server.py được dùng để deploy lên local host. Có thể thay đổi đường dẫn các file cho phù hợp và chỉnh port nếu cần thiết.
+Pip install -r requirements.txt cho file server.py
