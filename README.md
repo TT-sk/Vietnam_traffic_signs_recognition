@@ -25,3 +25,7 @@ Sau khi train xong dùng lệnh sau để test: python /detect path/to/detect.py
 -detect path/to/detect.py: file detect trong yolov5. <br>
 -Sau mỗi lần detect trong file yolov5/runs/detect sẽ tự generate 1 file exp sẽ lưu lại toàn bộ kết quả dự đoán.  <br>       
 </details>
+
+<details open>
+<summary> Deployment  </summary>
+File server.py được dùng để deploy lên local host. Có thể thay đổi đường dẫn các file cho phù hợp và chỉnh port nếu cần thiết.
