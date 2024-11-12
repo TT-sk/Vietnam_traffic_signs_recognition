@@ -1,6 +1,6 @@
 # Vietnam_traffic_signs_recognition <br>
 ## Chạy trên google colab: <br>
-Bản chạy demo trên colab về traffic_signs_recognition: https://colab.research.google.com/drive/1AxKG9fA-1calAQgiWG-lETtd3d5E3Web?usp=sharing <br>
+Bản chạy demo trên colab về traffic_signs_recognition: https://drive.google.com/file/d/11REaOAQi_f-Rhon5hM6YHWYnoFqy6gBl/view?usp=sharing <br>
 Bộ dataset https://drive.google.com/file/d/14qiArH8PzWMAf1YA4x6951y6-rFxAJ6V/view?usp=drive_link <br>
 ## Chạy trên máy ảo conda: <br>
 Git clone yolov5 về máy: https://github.com/ultralytics/yolov5 <br>
